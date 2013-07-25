@@ -6,7 +6,7 @@ Released under the MIT License <http://www.opensource.org/licenses/mit-license.p
 */
 
 // Define a destination
-$targetFolder = '/2013/u/img'; // Relative to the root
+$targetFolder = '/static/newsletter/uploads'; // Relative to the root
 
 $verifyToken = md5('unique_salt' . $_POST['timestamp']);
 

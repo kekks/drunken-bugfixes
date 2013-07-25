@@ -142,7 +142,7 @@
         </div>
         <script type="text/javascript">
       	var createDEMObj = {};
-      	var prec = "http://localhost/2013/u/img/";
+      	var prec = "http://static.armanissl.com/newsletter/uploads/";
       		<?php $timestamp = time();?>
       		$(function() {
       		  var demoImg = $("#demoreplace"),
@@ -175,7 +175,6 @@
       				'swf'      : 'uploadify.swf',
       				'uploader' : 'uploadify.php',
       				'onUploadComplete' : function(file) {
-                         alert('The file ' + file.name + ' finished processing.');
 
                          var _d = $('<img/>');
                          _d[0].src = prec+file.name;
@@ -199,7 +198,7 @@
               createDEMObj.footer = $('input[name="footer"]').is(':checked');
               if(l != "") createDEMObj.link = l;
               createDEMObj.collection = $('select[name="collection"] option:selected').val();
-              window.location = "server/php/download.php?"+$.param(createDEMObj);
+              window.location = "download.php?"+$.param(createDEMObj);
               createDEMObj = {};
               return false;
             });
