@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+
+<Files "index.php">
+  AuthUserFile /var/www/vhosts/armanissl.com/httpdocs/newsletter/generator/.htpasswd
+  AuthName "Dem Creator"
+  AuthType Basic
+  require valid-user
+</Files>
