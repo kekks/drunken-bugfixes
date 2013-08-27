@@ -69,7 +69,7 @@
             <option>ARMANI JEANS</option>
             <option>ARMANI JUNIOR</option>
             <option>ARMANI COLLEZIONI</option>
-            <option>ARMANI PRIVÈ</option>
+            <option>ARMANI PRIV&Egrave</option>
             <option>ARMANI DOLCI</option>
             <option>ARMANI FIORI</option>
             <option>ARMANI CASA</option>
