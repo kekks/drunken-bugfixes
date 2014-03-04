@@ -65,6 +65,7 @@
           <select name="collection">
             <option selected="selected">--------------</option>
             <option>GIORGIO ARMANI</option>
+            <option>GIORGIO ARMANI BEAUTY</option>
             <option>EMPORIO ARMANI</option>
             <option>ARMANI JEANS</option>
             <option>ARMANI JUNIOR</option>
